@@ -1,5 +1,4 @@
 import 'package:combu_soporte/pantallas/login.dart';
-import 'package:combu_soporte/widgets/input_decorations.dart';
 import 'package:flutter/material.dart';
 
 //clase principal paginaPrincipal
@@ -68,41 +67,6 @@ class _PPrincipalState extends State<Pprincipal> {
               Text('Generar Reporte',
                   style: Theme.of(context).textTheme.headlineSmall),
               const SizedBox(height: 10),
-              //si no jala cambiar a container
-              Form(
-                  child: Column(
-                children: [
-                  TextFormField(
-                    autocorrect: false,
-                    decoration: Inputdecorations.inputdecoration(
-                      hintext: 'texto1',
-                      labeltext: 'opciones',
-                      icons: const Icon(Icons.padding_outlined),
-                    ),
-                  ),
-                  TextFormField(
-                    autocorrect: false,
-                    decoration: Inputdecorations.inputdecoration(
-                        hintext: 'texto2',
-                        labeltext: 'menu alternativas',
-                        icons: const Icon(Icons.menu_outlined)),
-                  ),
-                  TextFormField(
-                    autocorrect: false,
-                    decoration: Inputdecorations.inputdecoration(
-                        hintext: 'texto2',
-                        labeltext: 'desc',
-                        icons: const Icon(Icons.menu_outlined)),
-                  ),
-                  TextFormField(
-                    autocorrect: false,
-                    decoration: Inputdecorations.inputdecoration(
-                        hintext: 'texto3',
-                        labeltext: 'AdjuntarImagen/es?',
-                        icons: const Icon(Icons.image_aspect_ratio)),
-                  )
-                ],
-              ))
             ],
           ),
         ),

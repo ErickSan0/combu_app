@@ -6,7 +6,7 @@ class Plogin extends StatefulWidget {
   const Plogin({Key? key}) : super(key: key);
 
   @override
-  _PloginState createState() => _PloginState();
+  State<Plogin> createState() => _PloginState();
 }
 
 class _PloginState extends State<Plogin> {
