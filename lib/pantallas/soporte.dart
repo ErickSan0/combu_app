@@ -7,10 +7,10 @@ class Psoporte extends StatefulWidget {
   const Psoporte({Key? key}) : super(key: key);
 
   @override
-  State<Psoporte> createState() => _PPrincipalState();
+  State<Psoporte> createState() => _PsoportelState();
 }
 
-class _PPrincipalState extends State<Psoporte> {
+class _PsoportelState extends State<Psoporte> {
   @override
   Widget build(BuildContext context) {
     @override

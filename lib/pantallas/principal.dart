@@ -1,4 +1,3 @@
-import 'package:combu_soporte/pantallas/login.dart';
 import 'package:flutter/material.dart';
 
 //clase principal paginaPrincipal
@@ -64,26 +63,12 @@ class _PPrincipalState extends State<Pprincipal> {
           child: Column(
             children: [
               const SizedBox(height: 20),
-              Text('Generar Reporte',
+              Text('Generar ticket',
                   style: Theme.of(context).textTheme.headlineSmall),
               const SizedBox(height: 10),
             ],
           ),
         ),
-        const SizedBox(height: 20),
-        ElevatedButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => const Plogin()),
-              );
-            },
-            style: TextButton.styleFrom(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 100, vertical: 14),
-                foregroundColor: Colors.white,
-                backgroundColor: const Color.fromRGBO(63, 63, 156, 1)),
-            child: const Text('regresar')),
       ],
     ));
   }
