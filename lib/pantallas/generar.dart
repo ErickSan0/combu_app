@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 //clase principal paginaPrincipal
-class Pprincipal extends StatefulWidget {
-  const Pprincipal({Key? key}) : super(key: key);
+class Pgenerar extends StatefulWidget {
+  const Pgenerar({Key? key}) : super(key: key);
 
   @override
-  State<Pprincipal> createState() => _PPrincipalState();
+  State<Pgenerar> createState() => _PgenerarState();
 }
 
-class _PPrincipalState extends State<Pprincipal> {
+class _PgenerarState extends State<Pgenerar> {
   @override
   Widget build(BuildContext context) {
     @override
