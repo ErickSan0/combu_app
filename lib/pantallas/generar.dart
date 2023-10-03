@@ -36,16 +36,16 @@ class _PPrincipalState extends State<Pprincipal> {
     return SingleChildScrollView(
         child: Column(
       children: [
-        const SizedBox(height: 160),
+        const SizedBox(height: 120),
         Container(
           //altura texto dentro de formulario
-          padding: const EdgeInsets.all(20),
+          padding: const EdgeInsets.all(10),
           //expansion horizontal de la caja formulario
           margin: const EdgeInsets.symmetric(horizontal: 20),
           //expansion horizontal de la caja formularo(dentro de la screen)
           width: double.infinity,
           //altura de la caja formulario dentro de la screen
-          height: 380,
+          height: 500,
           //codigo decorativo de caja formulario
           decoration: BoxDecoration(
               //color caja formulario
@@ -88,7 +88,7 @@ class _PPrincipalState extends State<Pprincipal> {
     return SafeArea(
       child: Container(
           //posicion del icono partiendo de la altura
-          margin: const EdgeInsets.only(top: 40),
+          margin: const EdgeInsets.only(top: 10),
           //expansion horizontal del icono
           width: double.infinity,
           //codigo decoratico icono
@@ -97,27 +97,6 @@ class _PPrincipalState extends State<Pprincipal> {
             color: Colors.white,
             size: 100,
           )),
-    );
-  }
-}
-
-class Soporte extends StatelessWidget {
-  const Soporte({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      color: Colors.white,
-      child: const Center(
-        child: Text(
-          "Soporte",
-          style: TextStyle(
-            color: Color.fromRGBO(63, 63, 156, 1),
-            fontSize: 45,
-            fontWeight: FontWeight.w500,
-          ),
-        ),
-      ),
     );
   }
 }

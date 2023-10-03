@@ -1,5 +1,5 @@
 import 'package:combu_soporte/pantallas/login.dart';
-import 'package:combu_soporte/pantallas/principal.dart';
+import 'package:combu_soporte/pantallas/generar.dart';
 import 'package:combu_soporte/pantallas/soporte.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
       title: 'CombuApp',
       routes: {
         'login': (_) => const Plogin(),
-        'inicio': (_) => const Pprincipal(),
+        'generar': (_) => const Pgenerar(),
         'soporte': (_) => const Psoporte(),
       },
       initialRoute: 'login',
