@@ -3,14 +3,14 @@ import 'package:combu_soporte/widgets/input_decorations.dart';
 import 'package:flutter/material.dart';
 
 //clase principal paginaPrincipal
-class Psoporte extends StatefulWidget {
-  const Psoporte({Key? key}) : super(key: key);
+class Pseguimiento extends StatefulWidget {
+  const Pseguimiento({Key? key}) : super(key: key);
 
   @override
-  State<Psoporte> createState() => _PsoportelState();
+  State<Pseguimiento> createState() => _PseguimientoState();
 }
 
-class _PsoportelState extends State<Psoporte> {
+class _PseguimientoState extends State<Pseguimiento> {
   @override
   Widget build(BuildContext context) {
     @override
@@ -65,7 +65,7 @@ class _PsoportelState extends State<Psoporte> {
           child: Column(
             children: [
               const SizedBox(height: 20),
-              Text('Generar Reporte',
+              Text('Seguimiento Reportes',
                   style: Theme.of(context).textTheme.headlineSmall),
               const SizedBox(height: 10),
               //si no jala cambiar a container
