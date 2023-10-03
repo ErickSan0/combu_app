@@ -1,4 +1,4 @@
-import 'package:combu_soporte/pantallas/principal.dart';
+import 'package:combu_soporte/pantallas/generar.dart';
 import 'package:combu_soporte/widgets/input_decorations.dart';
 import 'package:flutter/material.dart';
 
@@ -132,7 +132,7 @@ class _PloginState extends State<Plogin> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => const Pprincipal()),
+                                    builder: (context) => const Pgenerar()),
                               );
                             },
                             //estilo visual del btn incluyendo texto asi como color de texto y color del btn

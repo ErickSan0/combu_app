@@ -15,7 +15,6 @@ class _PseguimientoState extends State<Pseguimiento> {
   Widget build(BuildContext context) {
     @override
     final tamao = MediaQuery.of(context).size;
-    //scar
     return Scaffold(
       appBar: AppBar(
         title: const Text('Sistemas Soporte'),
